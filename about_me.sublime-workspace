@@ -1,0 +1,918 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"active"
+			],
+			[
+				"h",
+				"hidden\toverflow"
+			],
+			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"c",
+				"content\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"txt",
+				"text-center"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"mair",
+				"margin-bottom\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"marig",
+				"margin-right\tproperty"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"get",
+				"getAward"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"i",
+				"icon1"
+			],
+			[
+				"transition-d",
+				"transition-duration"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"uname",
+				"uname"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"xz",
+				"xz_laptop_family"
+			],
+			[
+				"n",
+				"num2"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/G/学习/1 SEVER/day5/SERVER_DAY05/3.php",
+			"settings":
+			{
+				"buffer_size": 153,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/1 SEVER/day10/SERVER_DAY10/xz.sql",
+			"settings":
+			{
+				"buffer_size": 907,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/5 project/dayProject21/Day01/project/02-checkUname.php",
+			"settings":
+			{
+				"buffer_size": 265,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/12html5/admin_V12/data/00_images.php",
+			"settings":
+			{
+				"buffer_size": 2016,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/学习/12html5/day01/admin/data/login.php",
+			"settings":
+			{
+				"buffer_size": 997,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/5 project/project____day22/project/02-login.html",
+			"settings":
+			{
+				"buffer_size": 493,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/5 project/project____day22/project/02-login.php",
+			"settings":
+			{
+				"buffer_size": 361,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/12html5/day08/admin/index.html",
+			"settings":
+			{
+				"buffer_size": 1884,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/学习/12html5/day08/admin/js/index.js",
+			"settings":
+			{
+				"buffer_size": 737,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/10 project/xuezi-project02-s/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1219,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/学习/5 project/project____day22/project/01-register.php",
+			"settings":
+			{
+				"buffer_size": 534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			]
+		],
+		"width": 554.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/学习/10 project/xuezi-project02-s/js/details.js",
+		"/G/学习/5 project/dayProject21/Day01/project/01-register.html",
+		"/G/学习/10 project/day2/data/index/getProducts.php",
+		"/G/学习/12html5/admin_V12/data/00_init.php",
+		"/G/学习/5 project/project____day22/project/init.php",
+		"/G/学习/7project2/day31/products.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/liahi.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/churuzhan.html",
+		"/E/XAMPP/htdocs/my_project/cpts_981_cai/index.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/azhen.html",
+		"/G/学习/10 project/day2/js/details.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/meet.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/our.html",
+		"/G/学习/10 project/完整版/js/details.js",
+		"/G/学习/10 project/完整版/js/products.js",
+		"/G/学习/10 project/day2/js/index.js",
+		"/G/学习/10 project/day2/js/products.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/lunbo.html",
+		"/G/学习/12html5/game/js/main.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/home.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/why.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/about_me.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/css/bootstrap.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/sel.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/try3.html",
+		"/G/学习/6css/day29/01-exercsie.html",
+		"/G/学习/6css/day29/0-homework-1.html",
+		"/G/学习/6css/day29/01-动画.html",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/css/bootstrap-theme.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/css/base.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css",
+		"/E/XAMPP/htdocs/my_project/cpts_981_cai/css/font-awesome.min.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/js/npm.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/js/bootstrap.min.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/css/bootstrap.min.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/sxf/AppData/Local/Temp/HZ$D.379.369/HZ$D.379.370/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/js/bootstrap.js",
+		"/E/XAMPP/htdocs/my_project/my_project1.0/bootstrap-3.3.7-dist/js/bootstrap.min.js",
+		"/G/学习/框架相关/animate.css",
+		"/E/XAMPP/htdocs/my_project/cpts_981_cai/js/main.js",
+		"/E/XAMPP/htdocs/my_project/cpts_981_cai/js/boot_slider.js",
+		"/E/XAMPP/htdocs/project3/day2/js/index.js",
+		"/E/XAMPP/htdocs/project3/day2/js/login.js",
+		"/E/XAMPP/htdocs/project3/day2/js/products.js",
+		"/E/XAMPP/htdocs/project3/xuezi-project02-s/js/index.js",
+		"/E/XAMPP/htdocs/project3/xuezi-project02-s/js/header.js",
+		"/E/XAMPP/htdocs/project3/xuezi-project02-s/js/details.js",
+		"/E/XAMPP/htdocs/project3/xuezi-project02-s/js/ajax.js",
+		"/E/XAMPP/htdocs/练习/donghua.html",
+		"/G/学习/11 jQuery/day04/12_tabs.html",
+		"/G/学习/9 dom/day03/6_images.html",
+		"/E/XAMPP/htdocs/模板/cpts_874_biq/css/style.css",
+		"/G/学习/11 jQuery/day04/11_accordion.html",
+		"/E/XAMPP/htdocs/模板/cpts_874_biq/css/index.css",
+		"/E/XAMPP/htdocs/模板/cpts_14_ei/css/style.css",
+		"/E/XAMPP/htdocs/模板/cpts_14_ei/css/bootstrap.css",
+		"/G/学习/10 project/day2/product_details.html",
+		"/E/XAMPP/htdocs/project3/xuezi-project02-s/js/footer.js",
+		"/G/学习/10 project/js/footer.js",
+		"/G/学习/10 project/js/header.js",
+		"/G/学习/10 project/js/ajax.js",
+		"/G/学习/10 project/index.html",
+		"/G/学习/10 project/header.html",
+		"/G/学习/10 project/cart.html",
+		"/G/学习/3 JAVASCRIPT/day17/Day05/冒泡排序.html",
+		"/G/学习/9 dom/day04/3_calc.html",
+		"/C/Users/sxf/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/sxf/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/G/学习/9 dom/day03/css/3.css",
+		"/G/学习/8JS高级/day06/7_call.html",
+		"/G/学习/9 dom/day03/1_select_options_HTMLDOM.html",
+		"/G/学习/8JS高级/day07/7_rest.html",
+		"/G/学习/8JS高级/day07/8_spread.html",
+		"/G/学习/8JS高级/day07/9_arrow.html",
+		"/G/学习/8JS高级/day07/10_template_String.html",
+		"/G/学习/9 dom/day04/5_pop1.html",
+		"/G/学习/9 dom/day03/5_timer.html",
+		"/G/学习/8JS高级/day07/11_destruct.html",
+		"/G/学习/8JS高级/day07/12_destruct.html",
+		"/G/学习/8JS高级/day05/9_use_strict.html",
+		"/G/学习/8JS高级/day05/8_inherits_extends.html",
+		"/G/学习/8JS高级/day05/7_setPrototypeOf.html",
+		"/G/学习/8JS高级/day05/2_String.html",
+		"/G/学习/8JS高级/day05/5_override.html",
+		"/G/学习/8JS高级/day05/1_boxing.html",
+		"/G/学习/8JS高级/day05/6_static.html",
+		"/G/学习/8JS高级/day05/4_isArray.html",
+		"/G/学习/8JS高级/day05/3_typeof.html",
+		"/G/学习/8JS高级/day04/3_closuer_bs.html",
+		"/G/学习/8JS高级/day04/2_buttons.html",
+		"/G/学习/8JS高级/day04/1_closure.html",
+		"/E/XAMPP/htdocs/try.html",
+		"/G/学习/框架相关/SublimeText/alert/am-alert.sublime-snippet",
+		"/G/学习/8JS高级/day03/8_overload.html",
+		"/E/XAMPP/htdocs/练习/01-逆转字符串.html",
+		"/E/XAMPP/htdocs/6javascript core/06-正则表达式.html",
+		"/E/XAMPP/htdocs/6javascript core/04-自己写的玩的动画效果.html",
+		"/E/XAMPP/htdocs/6javascript core/05-测试getdocumentById.html",
+		"/E/XAMPP/htdocs/javascript core/05-测试getdocumentById.html",
+		"/G/学习/2 HTML/day12/Day02/user_login.php",
+		"/C/Users/sxf/AppData/Roaming/Sublime Text 3/Packages/User/ConvertToUTF8.sublime-settings",
+		"/C/Users/sxf/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/sxf/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/G/学习/4 AJAX/day20/Day03/01-get-array.html",
+		"/E/XAMPP/htdocs/project/day22/01-register.php",
+		"/G/学习/4 AJAX/day19/Day02/common.js",
+		"/G/学习/4 AJAX/day19/Day02/04-getAjax.html",
+		"/G/学习/4 AJAX/day19/Day02/06-ajax-get.php",
+		"/G/学习/4 AJAX/day19/Day02/05-response.php",
+		"/G/学习/4 AJAX/day20/Day03/loadUser.php",
+		"/G/学习/4 AJAX/day20/Day03/checkUname.php",
+		"/G/学习/4 AJAX/day20/Day03/01-array.php",
+		"/G/学习/4 AJAX/day20/Day03/0-register.php",
+		"/G/学习/4 AJAX/day20/Day03/02-exercise.html",
+		"/G/学习/8JS高级/day03/5_hoist.html",
+		"/G/学习/8JS高级/day03/6_hoist.html",
+		"/G/学习/8JS高级/day03/7_new_Function.html",
+		"/E/XAMPP/htdocs/javascript/homework14.html",
+		"/E/XAMPP/htdocs/javascript/javascript.html",
+		"/E/XAMPP/htdocs/ajax/day20/init.php",
+		"/G/学习/8JS高级/day02/5_exec.html",
+		"/G/学习/8JS高级/day02/6_round.html",
+		"/G/学习/8JS高级/day02/7_sqrt.html",
+		"/G/学习/8JS高级/day02/8_random.html",
+		"/G/学习/8JS高级/day02/9_doubleball.html",
+		"/G/学习/8JS高级/day02/10_atan.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"desktop",
+			"fa",
+			";\n",
+			"sm",
+			"\"\\f028\"",
+			"\\f028",
+			">\n",
+			"aria-hidden",
+			"id=\"dropdownMenu1\" ",
+			"about-w3ls1",
+			"hover"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/G/学习/1 SEVER/day5/SERVER_DAY05/3.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/G/学习/1 SEVER/day10/SERVER_DAY10/xz.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/G/学习/5 project/dayProject21/Day01/project/02-checkUname.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/G/学习/12html5/admin_V12/data/00_images.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/G/学习/12html5/day01/admin/data/login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/G/学习/5 project/project____day22/project/02-login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								493,
+								493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/G/学习/5 project/project____day22/project/02-login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/G/学习/12html5/day08/admin/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1272,
+								1277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/G/学习/12html5/day08/admin/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/G/学习/10 project/xuezi-project02-s/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/G/学习/5 project/project____day22/project/01-register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "about_me.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

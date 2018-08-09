@@ -1,0 +1,56 @@
+		div.banner{
+			width:auto;
+			height:950px;
+			background:url("../images/banner4.jpg") no-repeat center;
+		}
+		div.banner>.banner_ul{
+			margin-left:280px;
+		}
+		div.banner>.banner_ul>li{
+			float:left;
+			margin-left:50px;
+			margin-top:70px;
+			transform:scaleX(1.2);
+		}
+		div.banner>.banner_ul>li>a{
+			font-size:20px;
+			color:#fff;
+			display:inline block;
+			border-bottom:2px solid #fff;
+			padding-bottom:10px;
+		}
+		.banner>.banner_sm{
+			display:inline block;
+			float:left;
+			margin-top:70px;
+			margin-left:200px;
+			font-size:40px;
+		}
+		.banner>.gg{
+			float:left;
+			font-size:35px;
+			width:450px;
+			position:absolute;
+			top: 400px;
+			left:300px;
+			transform:scale(1.1);
+			font-weight:bold;
+		}
+		.banner>.gg2{
+			float:left;
+			color:#F36523;
+			width:450px;
+			position:absolute;
+			top:520px;
+			left:280px;
+			font-size:15px;
+			font-weight:bold;
+		}
+		div.banner>.nav{
+			float:left;
+			position:absolute;
+			top:600px;
+			display:inline block;
+			left:300px;
+			background:
+		}

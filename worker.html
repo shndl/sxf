@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.container{
+			margin-top: 50px;
+		}
+		div{
+			height: 40px;
+		}
+		div>a{
+			display: block;
+			text-align: center;
+			transition: all 0.5s linear;
+			position: absolute;
+			height: 50px;
+		}
+		span.s{
+			display: inline-block;
+			border-top:2px solid blue;
+			position: absolute;
+		}
+		span.s:hover{
+			/*transform: translateY(-30px);*/
+
+		}
+
+	</style>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="animate.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2">
+				<a href="#" >HOME </a>
+
+			</div>
+			<div class="col-xs-2"><a href="#">ABOUT</a></div>
+			<div class="col-xs-2"><a href="#">INFO</a></div>
+			<div class="col-xs-2"><a href="#">TEAM</a></div>
+			<div class="col-xs-2"><a href="#">WORK</a></div>
+			<div class="col-xs-2"><a href="#">CONTANT</a></div>
+		</div>
+
+	</div>
+<p class="animated fadeInDown">we</p>
+<script src="jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	<script>
+		// $("a").hover(function(){
+		//     $(".s").css("transform","translateY(-30px)")
+		// },function(){
+		//     $(".s").css("transform","translateY(0)")
+		// });
+		//  $(".row").on("mouseover","a",function(){console.log(1);
+		//      $(this).children(".s").css({
+		// 		 "transform":"translateY(-30px) scale(1.3)"
+		// 	 });
+		//  })
+        // $(".row").on("mouseout","a",function(){console.log(1);
+         //    $(this).children(".s").css("transform","translateY(0)");
+        // })
+        //
+		$(".row").on("mouseenter","div",function () {
+			$(this).children("a").addClass("animated fadeInUp")
+        })
+		$(".row").on("mouseleave","div",function () {
+			$(this).children("a").removeClass("animated fadeInUp")
+        })
+	</script>
+</body>
+</html>

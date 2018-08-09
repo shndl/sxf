@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title></title>
+	<style>
+		div{left:800px;
+			width: 1200px;
+			height: 400px;
+			background: green;
+			position: relative;
+			padding:0 0;
+				overflow:hidden;
+		}
+		ul{
+			display: block;
+			background: red;
+			width: 2400px;
+			padding:0;
+		
+		}
+		ul>li{
+			list-style: none;
+			float: left;
+		}
+		#prev{
+			position: absolute;
+			top: 50%;
+			height: 50px;
+			left: 0;
+		}
+		#next{
+			position: absolute;
+			top: 50%;
+			height: 50px;
+			left: 1170px;
+		}
+		img{
+			height: 100%;
+		}
+		.active{
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<ul class="active">
+			
+			<li><img src="work-img8.jpg"></li>
+			<li><img src="work-img9.jpg"></li>
+			<li><img src="work-img10.jpg"></li>
+			<li><img src="work-img8.jpg"></li>
+			<li><img src="work-img9.jpg"></li>
+			<li><img src="work-img10.jpg"></li>
+		</ul>
+		<a href="#" id="prev"><img src="prev.png"></a>
+		<a href="#" id="next"><img src="next.png"></a>
+	</div>
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+		var next=$("#next");
+		var prev=$("#prev");
+		var active=$(".active");
+		var move=0;var width=400;
+		 next.click(function (e) {
+		 	e.preventDefault();
+		 	console.log(1);
+		 	move++;
+		 	active.animate({"left":-move*width},500,function(){
+		 		if(move==3){
+		 			move=0;
+		 			active.css("left",-move*width);
+		 		}
+		 	});
+		})
+		 //左键
+		 prev.click(function(e){
+		 	e.preventDefault();
+		 	console.log(2);
+			 	if(move==0){
+			 	move=-3;
+			 	active.css("left",move*width)
+			 	}
+			 	move++;
+			 	active.animate({"left":move*width},500)
+         })
+	</script>
+</body>
+</html>

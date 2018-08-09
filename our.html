@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		section.testimonial{
+			padding: 100px 0;
+	    background-color: #e92381;
+		}
+		div.container{
+			width: 970px;
+		}
+		div.container:before{
+			display: table;
+    		content: " ";
+		}
+		div.container>h3{
+			font-size: 40px;
+		    font-weight: 700;
+		    padding-bottom: 25px;
+		    position: relative;
+		    font-family: 'Raleway', sans-serif;
+		    text-transform: uppercase;
+		    color: #fff;
+		}
+		div.container>p.text-center{
+			font-size: 16px;
+		    line-height: 30px;
+		    padding-bottom: 50px;
+		    color: #fff;
+		    position: relative;
+		}
+		div.carousel-inner{
+			position: relative;
+		    width: 100%;
+		    overflow: hidden;
+		}
+		.losange .los1 {
+		    width: 160px;
+		    height: 160px;
+		}
+		.losange .los1 img {
+		    width: 100%;
+		    height: auto;
+		}
+		section.testimonial p.test-p1 {
+		    font-size: 15px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 30px;
+		    padding: 15px 150px 0;
+		}
+		section.testimonial h4 {
+		    font-size: 20px;
+		    font-weight: normal;
+		    color: #fff;
+		    font-family: 'Raleway', sans-serif;
+		    padding: 20px 0;
+		    text-align: center;
+		}
+		section.testimonial p.test-p2 {
+		    font-size: 15px;
+		    color: #fff;
+		    text-align: center;
+		    font-family: 'Raleway', sans-serif;
+		}
+		.carousel-control.left, .carousel-control.right {
+    		background: none;
+		}
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<section class="testimonial">
+	<div class="container">
+		<h3 class="text-center">Our Customer Reviews</h3>
+		<p class="text-center">Our Clients Like Us, Please Read Their Opinions</p>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item">
+					<div class="losange">
+						<div class="los1">
+							<img src="images/test-img1.jpg" alt="testimonial">
+						</div>
+					</div>
+					<p class="test-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac bibendum sem. Nullam bibendum justo eget lorem porta euismod. Donec et fringilla tortor.</p>
+					<hr>
+					<h4>Kate Winslet</h4>
+					<p class="test-p2">DJ Newyork</p>
+				</div>
+				<div class="item active">
+					<div class="losange">
+						<div class="los1">
+							<img src="images/test-img2.jpg" alt="testimonial">
+						</div>
+					</div>
+					<p class="test-p1">Cras nunc nisi, sagittis et nibh in, feugiat dapibus quam. Ut pellentesque dictum massa, pellentesque aliquet nisi aliquam in. Maecenas non sollicitudin dui.</p>
+					<hr>
+					<h4>Britney Spears</h4>
+					<p class="test-p2">Music Director</p>
+				</div>
+				<div class="item">
+					<div class="losange">
+						<div class="los1">
+							<img src="images/test-img3.jpg" alt="testimonial">
+						</div>
+					</div>
+					<p class="test-p1">Mauris nec ex quis elit euismod posuere. Sed ultricies mollis turpis, a convallis diam dignissim eu. Suspendisse elit elit, suscipit eu sollicitudin facilisis.</p>
+					<hr>
+					<h4>Lady Gaga</h4>
+					<p class="test-p2">Piano Artist</p>
+				</div>
+			</div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+</section>
+<script src="jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.jss"></script>
+</body>
+</html>	

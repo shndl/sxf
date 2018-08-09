@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 400px;
+        height: 400px;
+        position: relative;
+    }
+    img.i{
+        float: left;
+        position:absolute;
+        display: none;
+    }
+    ul{
+        list-style: none;
+        display: block;
+        border-radius: 100px;
+        position:absolute;
+        top:80%;
+        left:25%;
+    }
+    ul>li{
+        float:left;
+        height:20px;
+        width:20px;
+        border-radius: 100px;
+        background:white;
+        margin-right:10px;
+        text-align: center;
+    }
+    .left,.right{
+        position: absolute;
+        background: white;
+        height:30px;
+    }
+    .left{
+        top:50%;
+    }
+    .right{
+        top:50%;
+        left:90%;
+    }
+</style>
+<body>
+    <div class>
+        <img class="i" src="work-img8.jpg" style="">
+        <img class="i" src="work-img9.jpg">
+        <img class="i" src="work-img10.jpg">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <img src="prev.png" class="left">
+        <img src="next.png" class="right">
+    </div>
+    <script src="jquery.min.js"></script>
+   <script>
+    var c=0;var timer=null;
+    function fade(){
+        $("img").eq(c).fadeIn(500).siblings("img.i").fadeOut(500);
+        $("ul>li").eq(c).css("background","red").siblings("ul>li")
+            .css("background","white");
+        c++;
+        c=c>2?0:c;
+    }
+    fade();
+/////////////////////////
+    function auto() {
+        timer=setInterval(fade,2000);
+    }
+    auto();
+//////////////////
+   $("div").hover(function(){
+       clearInterval(timer);
+        timer=null;
+   },
+        function(){
+           auto();
+   });
+   ////////////////////
+       $("ul>li").mouseenter(function(){
+           $("img").eq($(this).index()).fadeIn(500).siblings("img")
+               .fadeOut(500);
+           $("ul>li").eq($(this).index())
+               .css("background","red")
+               .siblings("ul>li")
+               .css("background","white");
+       });
+       //////////////////////
+$(".right").stop(true).click(function () {
+    fade();
+});
+$(".left").click(function () {
+    c--;
+    c=c==-1?2:c
+    $("img").eq(c).fadeIn(500).siblings("img.i").fadeOut(500);
+    $("ul>li").eq(c).css("background","red").siblings("ul>li")
+        .css("background","white");
+   ;
+})
+   </script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	 <link rel="stylesheet" href="animate.css">
+	<style>
+		div.sector{
+			width:100%;
+			height:765px;
+			display:flex;
+		}
+		div.sector>div.banner{
+			width:100%;
+			height:765px;
+			opacity:0;
+			position:absolute;
+			transition: all 0.5s linear;
+		}
+		div.sector>div.show{
+			opacity:1;
+		}
+		div.sector>div>ul>li{
+			float:left;
+			font-size:20px;
+			margin-right:50px;
+			border-bottom:3px solid white;
+			padding-bottom: 13px; 
+		}
+		div.sector>div>ul{
+			margin-left:200px;
+			margin-top:70px;
+		}
+		div.sector>div>div:nth-child(3){
+			position:absolute;
+			top: 430px;
+			left: 190px;
+			font-size: 50px;
+			width: 470px;
+		}
+		div.sector>div>div:nth-child(4){
+			position: absolute;
+			color: #F36523;
+			font-size: 25px;
+			left: 190px;
+			top: 570px;
+			width: 470px;
+		}
+		div.sector>div>h2{
+			position: absolute;
+			font-size: 38px;
+			right: 250px;
+		}
+		div.sector>div>div:last-child{
+			position: absolute;
+			top: 640px;
+			left: 190px;
+		}
+		div.sector>div>div:last-child>img{
+			transition: all .5s linear;
+		}
+		div.sector>div>div:last-child>img:hover{
+			transform: scale(1.1);
+		}
+		div.lift{
+			position: fixed;
+			top: 50%;
+			left: 1%;
+			display: none;
+		}
+	li.b{
+		/*border:1px solid #CA2E15;*/
+		/*border-radius: 50%;*/
+		font-size: 25px;
+		font-weight:200;
+		width:25px;
+		background: #0aa1ed;
+		opacity: 0;
+		margin-bottom:2px;
+		text-align:center;
+	}
+		li.b>a{
+			opacity:1;
+			color:black;
+		}
+		li.b:hover{
+			opacity: 0.9;
+		}
+		#hy{
+			position: absolute;
+			color: white;
+			top: 1em;
+			left: 5em;
+			}
+	</style>
+ </head>
+ <body>
+<div class="container">
+ <!-- 1floor -->
+  <div class="sector f">
+		<div class="banner a show" style="background:url(images/banner1.jpg) no-repeat center;background-size:cover">
+			<ul class="nav">
+				<li><a href="">HOME</a></li>
+				<li><a href="origin.html" target="_blank">ABOUT</a></li>
+				<li><a href="">INFO</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+			<h2>EOURPY</h2>
+			<div>L o r e m i p s u m dolor sit </div>
+			<div>L o r e m ip s u m n s e c t e t u r adipisicing elit. Mollitia, quis,  ea!</div>
+			<div class="scale">
+				<img src="images/arrow_left.png">
+				<img src="images/arrow_right.png">
+			</div>
+		</div>
+		<div class="banner b" style="background:url(images/banner2.jpg) no-repeat center;background-size:cover">
+			<ul class="nav">
+				<li><a href="">HOME</a></li>
+				<li><a href="origin.html" target="_blank">ABOUT</a></li>
+				<li><a href="">INFO</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+			<h2>EOURPY</h2>
+			<div>L yt r o e w w q a z x sd c ,  e</div>
+			<div>L h j k j n h j n h n n n j jpisicing elit. Mollitia, quis,  ea!</div>
+			<div class="scale">
+				<img src="images/arrow_left.png">
+				<img src="images/arrow_right.png">
+			</div>
+		</div>
+		<div class="banner c" style="background:url(images/banner3.jpg) no-repeat center;background-size:cover">
+			<ul class="nav">
+				<li><a href="">HOME</a></li>
+				<li><a href="origin.html" target="_blank">ABOUT</a></li>
+				<li><a href="">INFO</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+			<h2>EOURPY</h2>
+			<div>L s d f t y u j h g b n j i o , coning e</div>
+			<div>L o r e m i p s  um nsectetur adipisicing elit. Mollitia, quis,  ea!
+			</div>
+			<div class="scale">
+				<img src="images/arrow_left.png">
+				<img src="images/arrow_right.png">
+			</div>
+		</div>
+		<div class="banner d" style="background:url(images/banner4.jpg) no-repeat center;background-size:cover">
+			<ul class="nav">
+				<li><a href="">HOME</a></li>
+				<li><a href="origin.html" target="_blank">ABOUT</a></li>
+				<li><a href="">INFO</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+			<h2>EOURPY</h2>
+			<div>Lorem ipsum dolor sit amet, coning e</div>
+			<div>Lorem ipsum nsectetur adipisicing elit. Mollitia, quis,  ea!</div>
+			<div class="scale">
+				<img src="images/arrow_left.png">
+				<img src="images/arrow_right.png">
+			</div>
+		</div>
+		<div class="banner e" style="background:url(images/banner5.jpg) no-repeat center;background-size:cover">
+			<ul class="nav">
+				<li><a href="">HOME</a></li>
+				<li><a href="origin.html" target="_blank">ABOUT</a></li>
+				<li><a href="">INFO</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+			<h2>EOURPY</h2>
+			<div>Lorem ipsum dolor sit amet, coning e</div>
+			<div>Lorem ipsum nsectetur adipisicing elit. Mollitia, quis,  ea!</div>
+			<div class="scale">
+				<img src="images/arrow_left.png">
+				<img src="images/arrow_right.png">
+			</div>
+		</div>
+	</div>
+	<div id="hy">欢迎</div>
+    <!--电梯-->
+    <div class="lift">
+        <ol>
+            <li class="b"><a href="#">1</a></li>
+            <li class="b"><a href="#">2</a></li>
+            <li class="b"><a href="#">3</a></li>
+            <li class="b"><a href="#">4</a></li>
+            <li class="b"><a href="#">5</a></li>
+            <li class="b"><a href="#">6</a></li>
+        </ol>
+    </div>
+  <!-- 2floor -->
+  <iframe src="about_me.html" class="f" id="f2" frameborder="none" style="width: 100%; height: 600px"></iframe>
+<!-- 3floor -->
+  <iframe src="why.html" class="f" frameborder="none" style="width: 100%; height: 550px"></iframe>
+<!--4floor  -->
+ <iframe src="meet.html" class="f" frameborder="none" style="width: 100%;height: 690px"></iframe>
+ <!--5floor-->
+ <iframe src="start.html" class="f" frameborder="none" style="width: 100% ;height: 700px"></iframe>
+ <!--6floor-->
+ <iframe src="try.html" class="f" frameborder="0" style="width: 100%;height:1300px"></iframe>
+ <!--7floor-->
+	<iframe src="contant.html" class="f" frameborder="none"style="width:100%;height:590px"></iframe>
+</div>  
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+		//定时器
+		function task(){
+           var $show=$(".sector>div.show"); 
+            $show.removeClass("show");
+			if($show.next().length!=0){//console.log($show.next());
+				$show.next().addClass(" show");
+			}else{
+				$show.parent().children(":first").addClass("show");
+				$show.removeClass("show")
+			}
+		}
+		var timer=setInterval(task,2000);
+		function autoMove(){
+			timer=setInterval(function(){
+				task();
+			},2000);
+		}
+		$("div.sector").hover(
+			function(){
+				clearInterval(timer);
+				timer=null;
+			},
+			function(){
+				autoMove();
+			}
+		)
+		//点击箭头
+		$left=$("div.sector>div>div:last-child>img:first-child");
+		//console.log($left);左边箭头
+		 $left.click(function(){
+             $show=$("div.sector>div.show");
+		 	//console.log($show,$show.prev());
+		 	if($show.prev().length!=0){
+		 		$show.removeClass("show");
+		 		$show.prev().addClass("show");
+		 	}else{
+		 		$show.removeClass("show");
+		 		$show.parent().children(":last-child")
+		 			.addClass("show");
+		 	}
+		 });
+		//右边箭头
+        $right=$("div.sector>div>div:last-child>img:last-child");
+        $right.click(function(){
+            //console.log($right);
+            $show=$("div.sector>div.show");
+            if($show.next().length!=0){
+                $show.removeClass("show");
+                $show.next().addClass("show");
+            }else {
+                $show.removeClass("show");
+                $show.parent().children(":first-child")
+                    .addClass("show");
+            }
+        });
+		//点击电梯
+		$("ol").on("click","li",function (e) {
+			e.preventDefault();
+			var i=$(this).index();
+			var p=0;
+			switch (i){
+				case 0:p=0;
+				break;
+				case 1:p=765;
+				break;
+				case 2:p=1368;
+				break;
+				case 3:p=1919;
+				break;
+				case 4:p=2613;
+				break;
+				case 5:p=3315;
+				break;
+			}
+			console.log(i);
+			$("html,body").animate({
+				scrollTop:p
+			},500);
+        });
+			
+				//电梯出现
+				$(window).scroll(function(){
+					var scrollTop = document.body.scrollTop
+						||document.documentElement.scrollTop;
+						var offsetTop=$("#f2").offset().top;
+						if(scrollTop+innerHeight/2<offsetTop)
+						$(".lift").hide();
+						else{
+							$(".lift").show();
+						}
+						// console.log(offsetTop,scrollTop,innerHeight/2);
+						//电梯挨个自己亮
+						var floor=$(".f");
+                        //console.log(floor);
+					    //$(".b").css("opacity","1");
+                        floor.each(function(i){
+                            var f=$(this);
+                            //console.log(f);
+                            var offsetTop=f.offset().top;
+                            //console.log(offsetTop);
+                            if(offsetTop<scrollTop+innerHeight/2){
+                                console.log(i);
+                                $("ol").children().eq(i).css("opacity","0.9")
+                                    .siblings().css("opacity","0.4");
+                            }
+                        })
+
+				});
+		//导航条
+		$(".nav").on("mouseover","li",function(){
+		    console.log(this);
+			$(this).addClass("animated fadeInUp")
+		});
+		//
+		$(document).ready(function(){
+			$.ajax({
+				url:"data/islogin.php",
+				withCredentials: true,
+				success:function(data){
+					console.log(data);
+					$("#hy").html("欢迎"+data.uname+"回来");
+				}
+			})
+		})
+	</script>
+ </body>
+</html>

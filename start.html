@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>famous</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		div.container{
+			width: 100%;
+			height: 700px;
+			padding: 0;
+			color: #fff;
+		}
+		div.bg{
+			padding-top:100px;
+			background: #e92381;
+			height: 700px;
+			position:relative;
+		}
+		div.bg>h1{
+			position: absolute;
+			left:37%;
+			top:60px;
+			font-size: 40px;
+		}
+		div.bg>p{
+			font-size: 16px;
+			position: absolute;
+			top:140px;
+			left:38%;
+		}
+		ul{
+			width:4000px;
+			height:500px;
+		}
+		div.ban{
+			width:1000px;
+			height: 500px;
+			overflow: hidden;
+			position: absolute;
+			left:19%;
+			top:200px;
+		}
+		ul>li{
+			float: left;
+			display: inline-block;
+			width:1000px;
+			height:500px;
+			text-align: center;
+		}
+		ul>li>img{
+			width:300px;
+			height:300px;
+		}
+		ul.active{
+			position: absolute;
+		}
+		div{font-family: 'Raleway';}
+		div.ban>ul>li>div:nth-child(2){
+			display: inline-block;
+			font-size: 15px;
+			width:80%;
+			line-height:30px;
+		}
+		div.ban>ul>li>div:nth-child(3){
+			font-size: 23px;
+			line-height:35px;
+		}
+		div.ban>ul>li>div:nth-child(4){
+			font-size: 14px;
+		}
+		div.bg>a>i{
+			display: inline-block;
+			width: 20px;
+			height:50px;
+			opacity: 0.6;
+			font-size: 40px;
+		}
+		div.bg>a>i:hover{
+			opacity: 1;
+		}
+		#prev{
+			position: absolute;
+			left:25%;
+			top:50%;
+		}
+		#next{
+			position: absolute;
+			left:80%;
+			top:50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="bg">
+			<h1>OUR CUSTOMER RRERE</h1>
+			<P>Lorem ipsum dolor sit amet, consectetur adipisicing el</P>
+			<div class="ban" id="d1">
+				<ul class="active">
+					<li>
+						<img src="images/test-img1.jpg" alt="">
+						<div class>g elit. Atque enim est fuga id in nam obcaecati quod reiciendis tempore ullam. Eveniet ex ipsum laudantium necessitatibus neque pariatur quam! Ipsam, nulla.</div>
+						<div>Lorem eeeee</div>
+						<div>Lelit. Aliquam cd</div>
+					</li>
+					<li>
+						<img src="images/test-img2.jpg" alt="">
+						<div>lit. At delectus fugit itaque quae reprehenderit, sed temporibus? Aut corporis eius eveniet labore ratione vero voluptatem. Doloribus molestiae officia quibusdam ullam unde.dddddddddddddddddddd</div>
+						<div>rit si vero.w</div>
+						<div>g orrecusff</div>
+					</li>
+					<li>
+						<img src="images/test-img3.jpg" alt="">
+						<div>Lpisicing elit. A accusantium aliquid architecto atque blanditiis consequuntur delectus deserunt eius est ex excepturi facere nostrum numquam, provident repellendus sit unde ut voluptatem!qqqqqqqqqqqqqqqq</div>
+						<div>Lcniatem.ww</div>
+						<div>Lo. Asui.eeee</div>
+					</li>
+					<li>
+						<img src="images/test-img1.jpg" alt="">
+						<div>ipisicing elit. Aliquid autem, beatae delectus deleniti dolor ea esse expedita explicabo fuga id, labore minus pariatur ratione recusandae repudiandae sed, tempora temporibus veritatis.rrrrrrrrrrrrrrrrrrrrrrrrrrrr</div>
+						<div>placeat uae q</div>
+						<div>isicing e?yy</div>
+					</li>
+				</ul>
+			</div>
+			<a href="#" id="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+			<a href="#" id="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+		</div>
+	</div>
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+		var move=0,timer=null,x=-1000;
+		var $active=$(".active");
+		function run() {
+		    move++;
+			$active.stop(true).animate({"left":x*move},500,function(){
+			    if(move==3){
+			        $active.css("left",0);
+					move=0;
+				}
+			})
+        }
+        function automove() {
+            timer=setInterval(function () {
+                run();
+            },
+				2000);
+        }
+        automove();
+		$(".bg").hover(
+		    function () {
+				clearInterval(timer);
+        },
+			function () {
+                   automove();
+            }
+		);
+		var next=$("#next");
+		var prev=$("#prev");
+		next.click(function (e) {
+			e.preventDefault();
+			if(!$active.is(":animated")){
+			    run();
+			}
+        });
+		prev.click(function (e) {
+            e.preventDefault();
+            if(!$active.is(":animated")){
+                if(move==0){
+                    move=3;
+                    $active.css("left",move * x);
+                }
+                move--;
+                $active.stop(true).animate({"left": x * move}, 500, function () {
+                })
+            }
+        })
+	</script>
+</body>
+</html>	

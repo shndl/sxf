@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ <style>
+	div>img{
+		opacity:0;
+		transition:all .5s linear;
+	}
+	div>img.show{
+		opacity:1;
+	}
+	div>img{
+		position:absolute;
+	}
+ </style>
+ </head>
+ <body>
+  <div>
+		<img src="images/banner1.jpg" class="show">
+		<img src="images/banner2.jpg" alt="">
+		<img src="images/banner3.jpg" alt="">
+		<img src="images/banner4.jpg" alt="">
+	</div>
+	
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+	function task(){
+		$img=$("div>img.show");
+		$img.removeClass("show");
+		if($img.next().length!=0){
+		$img.next().addClass("show")
+		}else{
+			$img.parent().children(":first")
+					.addClass("show");
+		}
+	}
+//	task();
+
+//	function task(){
+//	var show=document.querySelector("div>img.show");
+//	show.className="";
+//	var next=show.nextElementSibling;
+//	console.log(show);
+//	console.log(next);
+//	if(next!=null)
+//		next.className="show";
+//		else
+//			show.parentNode.children[0].className="show";
+//  }
+	setInterval(task,2000)
+	</script>
+ </body>
+</html>
